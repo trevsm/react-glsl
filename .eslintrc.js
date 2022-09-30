@@ -17,6 +17,7 @@ module.exports = {
   'plugins': ['react', '@typescript-eslint'],
   'rules': {
     'react/react-in-jsx-scope': 'off',
+    'react/no-unknown-property': 'off',
   },
   'ignorePatterns': ['node_modules', 'dist', '.eslintrc.js', '.tsconfig.json'],
 };
